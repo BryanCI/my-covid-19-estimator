@@ -5,15 +5,15 @@ const calculateDays = (period, numberOfDays) => {
     * and returns the total number of days
     * */
   
-    if (period === 'days') {
-      return numberOfDays;
-    }
-    if (period === 'weeks') {
-      return numberOfDays * 7;
-    }
-    if (period === 'months') {
-      return numberOfDays * 30;
-    }
+  if (period === 'days') {
+    return numberOfDays;
+  }
+  if (period === 'weeks') {
+    return numberOfDays * 7;
+  }
+  if (period === 'months') {
+    return numberOfDays * 30;
+   }
   };
   
   const floor = (value) => {
