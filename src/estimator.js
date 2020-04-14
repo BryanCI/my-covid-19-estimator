@@ -38,7 +38,7 @@ const covid19ImpactEstimator = (data) => {
   severe.currentlyInfected = floor(input.reportedCases * 50);
 --
   // calculate number of days
-   const numberOfDays = calculateDays(input.periodType, input.timeToElapse);
+  const numberOfDays = calculateDays(input.periodType, input.timeToElapse);
   //method to calculate the factor
   const factor = 2 * (numberOfDays / 3);
 
